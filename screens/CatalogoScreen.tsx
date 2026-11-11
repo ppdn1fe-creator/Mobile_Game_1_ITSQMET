@@ -38,7 +38,7 @@ export default function CatalogoScreen({ navigation }: Props) {
         </TouchableOpacity>
       </View>
 
-      
+      <View></View>
 
       {/* Catálogo en 3 columnas tipo grid */}
       <FlatList

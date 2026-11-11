@@ -6,7 +6,7 @@ export default function PerfilScreen({navigation}:any) {
   
 
   return (
-    <ImageBackground source={{uri: "https://i.postimg.cc/fTMYykqw/Fonfo2.jpg"}} style={styles.container}>
+    <ImageBackground source={{uri: "https://i.postimg.cc/XNw9QcPD/fondo1.jpg"}} style={styles.container}>
         
           {/* Foto de perfil */}
           <Image 

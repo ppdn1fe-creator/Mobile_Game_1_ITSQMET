@@ -37,7 +37,7 @@ export default function LoginScreen({navigation}:any) {
 
     return (
         <ImageBackground 
-            source={{ uri: "https://i.postimg.cc/fTMYykqw/Fonfo2.jpg" }} 
+            source={{ uri: "https://i.postimg.cc/XNw9QcPD/fondo1.jpg" }} 
             style={styles.container}
         >
             <Text style={styles.title}>🔒 Ingresa a tu cuenta 🔒</Text>
@@ -54,7 +54,7 @@ export default function LoginScreen({navigation}:any) {
                     onChangeText={setContrasenia}
                     style={styles.input}
                 />
-                <Button title='Iniciar Sesion' color={"dark orange"} onPress={login}/>
+                <Button title='Iniciar Sesion' color={"orange"} onPress={login}/>
                 <Text style={styles.text}>¿No tienes cuenta?</Text>
                 <TouchableOpacity 
                     style={styles.cambio}
